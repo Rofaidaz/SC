@@ -45,4 +45,5 @@ jobs:
             -Dsonar.tests=. \
             -Dsonar.python.version=3.8 \
             -Dsonar.test.inclusions=**/test_*.py \
+            -Dsonar.host.url=http://130.61.239.168:9000 \
             -Dsonar.login=$SONAR_TOKEN
